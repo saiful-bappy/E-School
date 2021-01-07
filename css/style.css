@@ -1,0 +1,213 @@
+body {
+    font-family: Poppins;
+}
+
+header {
+    background-color: #F0FFF0;
+    padding: 10px 0 50px 0;
+}
+
+header .navbar-nav .nav-item .nav-link {
+    text-transform: capitalize;
+    color: black;
+}
+
+header .navbar-nav .nav-item:last-child .nav-link {
+    font-size: 14px;
+    border-radius: 33px;
+    background-color: #21B573;
+    padding: 3px 10px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+header .get-started {
+    margin-top: 40px;
+}
+
+header .get-started .learn-area .prg-1 {
+    color: #FD511A;
+}
+
+header .get-started .learn-area h1 {
+    font-weight: bold;
+}
+
+header .get-started .learn-area h1 span {
+    color: #21B573;
+    font-weight: bold;
+}
+
+.btn {
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-radius: 33px;
+    background: #21B573;
+    color: white;
+    padding: 10px 20px; 
+}
+
+.learn-about {
+    padding: 50px 0 50px;
+}
+
+.learn-about img {
+    width: 75px;
+}
+
+.learn-about .resize {
+    width: 60px;
+}
+
+.learn-about .learn-about-bg {
+    background-color: #F0FFF0;
+    margin-bottom: 20px;
+    padding: 60px 40px;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.learn-about .learn-about-bg:hover{
+    background-color: white;
+    box-shadow: 10px 10px 20px lightgrey;
+    cursor: pointer;
+}
+
+.learn-about .learn-about-bg h4 {
+    margin-top: 20px;
+}
+
+.learn-about .learn-about-bg a {
+    text-decoration: none;
+    color: grey;
+}
+
+.learn-about .col-sm-12 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.courses {
+    padding: 0 0 70px 0;
+}
+
+.courses h3 {
+    margin-bottom: 40px;
+}
+
+.courses .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px lightgray;
+    cursor: pointer;
+}
+
+.courses .card-footer {
+    background-color: white;
+    border: none;
+    border-radius: 10px 10px;
+}
+
+.courses .card img {
+    width: 320px;
+    margin: 20px auto 0;
+}
+
+.testimonial {
+    width: 60%;
+    padding-bottom: 80px;
+}
+
+.testimonial img {
+    width: 120px;
+}
+
+.testimonial p {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+footer {
+    padding: 50px 0 2px 0;
+    color: lightgrey;;
+}
+
+.course-outline {
+    margin-bottom: 30px;
+}
+
+footer h5 {
+    color: white;
+}
+
+.outline ul {
+    list-style: none;
+    padding: 0;
+}
+
+.outline ul li {
+    margin-bottom: 3px;
+}
+
+.outline ul li a {
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 14px;
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .courses .card-deck {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .courses .card {
+        margin: 0 auto 20px;
+    }
+
+    .courses .card img {
+        width: 440px;
+    }
+
+    .media {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .media-body p {
+       text-align: left; 
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .courses .col-sm-12 {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto 20px;
+    }
+
+    .courses .card img {
+        width: 220px;
+    }
+
+    .testimonial {
+        width: 80%;
+    }
+
+    .outline {
+        flex-direction: column;
+    }
+
+    .course, .terms {
+        margin-bottom: 10px;
+    }
+}
